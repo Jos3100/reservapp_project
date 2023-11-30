@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Jose MZR">
+  <meta name="description" content="Portafolio de desarrollo web Jose MZR">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Titulo-->
+  <title>Jose MZR | Front-End Developer and UX/UI Student</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="images/redingPerson.png">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--Iconos de Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="styles_boot.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="images/redingPerson.png" width="50" alt="Logo de la página web">
+
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-Scurrent="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Seccion Hero-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-perfil rounded-circle" src="images/desarrollador3.svg" alt="Foto de perfil">
+      <h1>Static Website</h1>
+      <h2>Ejercicio de Static Website con Bootstrap</h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="images/diseño_grafico.svg" alt="Imagenes de referencia">
+    </div>
+
+  </section>
+
+  <!--Sobre mi-->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Jose</h2>
+      <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia eligendi aliquam
+        culpa autem iste sed adipisci provident numquam sit, cum sint voluptatum ad, corporis fugit sapiente est labore.
+        Voluptas?</p>
+    </div>
+  </section>
+
+  <!--Experiencia-->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!--Desarrollo Web-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-pc-display"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat, eum sequi eveniet illo dolore amet
+            molestiae error officia dolorem voluptate nesciunt sint voluptates quibusdam totam, fugiat dignissimos harum
+            tempore.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-new">HTML</span>
+            <span class="badge text-bg-new">CSS</span>
+            <span class="badge text-bg-new">UX</span>
+            <span class="badge text-bg-new">UI</span>
+          </div>
+        </div>
+        <!--Articulos-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-vector-pen"></i>
+          <p class="experiencia-titulo">Artículos</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat, eum sequi eveniet illo dolore amet
+            molestiae error officia dolorem voluptate nesciunt sint voluptates quibusdam totam, fugiat dignissimos harum
+            tempore.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-new">Todavía no</span>
+
+          </div>
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-book"></i>
+          <p class="experiencia-titulo">Estudios</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat, eum sequi eveniet illo dolore amet
+            molestiae error officia dolorem voluptate nesciunt sint voluptates quibusdam totam, fugiat dignissimos harum
+            tempore.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-new">Desarrollo Web</span>
+            <span class="badge text-bg-new">UX Design</span>
+            <span class="badge text-bg-new">UI Design</span>
+            <span class="badge text-bg-new">Inglés</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--Proyectos-->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+    <h3 class="seccion-descripcion">Estos son algunos de mis proyectos</h3>
+    <!--Galeria de Proyectos-->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!--Proyecto 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto 1.png" alt="">
+            <div class="overlay">
+              <p>Reservapp</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://code-project-jose-git-develop-jos3100.vercel.app/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--Proyecto 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto2.png" alt="">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://code-project-jose-git-develop-jos3100.vercel.app/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--Proyecto 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto3.png" alt="">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://code-project-jose-git-develop-jos3100.vercel.app/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más
+        <i class="bi bi-arrow-right-circle"></i>
+      </button>
+    </a>
+  </section>
+
+  <!--Articulos-->
+  <section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Artículos</h2>
+    <div class="card">
+      <div class="card-header">
+        No tengo artículos
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Todavía no tengo artículos
+          </li>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Cuando tenga un artículo lo pondré
+          </li>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Lo mismo que dije arriba
+          </li>
+        </a>
+      </ul>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más
+        <i class="bi bi-arrow-right-circle"></i>
+      </button>
+    </a>
+  </section>
+
+  <!--Testimonios-->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Tampoco tengo testimonios</h3>
+
+    <!--Carrusel-->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/icon1.svg" alt="foto_fantasma">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia nemo
+              atque incidunt consequatur perspiciatis amet ullam </p>
+            <div class="testimonio-info">
+              <p class="cliente">Fantasma</p>
+              <p class="cargo">Asustador nocturno profesional</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/icon2.svg" alt="foto_batman">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia nemo
+              atque incidunt consequatur perspiciatis amet ullam </p>
+            <div class="testimonio-info">
+              <p class="cliente">Batman</p>
+              <p class="cargo">El señor de la noche</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/icon3.svg" alt="foto_donald">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia nemo
+              atque incidunt consequatur perspiciatis amet ullam</p>
+            <div class="testimonio-info">
+              <p class="cliente">Donald Trump</p>
+              <p class="cargo">Ex-presidente EE.UU</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!--   Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contactame
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:estenoesmicorreo@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Pie de pagina (Footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="images/icono-blanco.svg">
+    <p class="footer-texto text-center">Aprendiendo y creando<br>Creemos un proyecto juntos</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="mailto:estenoesmicorreo@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+
+    </div>
+    <div class="derechos-de-autor">Creado por José Manuel Zapata Roldán (2023) &#169;</div>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
