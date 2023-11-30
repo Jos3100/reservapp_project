@@ -1,0 +1,262 @@
+.inputs {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.title {
+    background: rgb(228, 87, 22);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+}
+
+.link a {
+    text-align: center;
+    background: rgb(241, 166, 131);
+    padding: 5px 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: black;
+    font-size: x-large;
+    margin-left: 45%;
+}
+
+.subtitle {
+    background: rgb(228, 87, 22);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+
+.back {
+    background-image: url(images/backtennis.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -2;
+
+
+}
+
+.option {
+    background: rgb(228, 87, 22);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.space {
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+
+.body {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.words {
+    text-decoration: none;
+    color: azure;
+    margin-right: 100px;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.header2 {
+    background-color: #023E8a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+
+}
+
+.header2 .logo img {
+    height: 220px;
+    width: auto;
+    padding-left: 40px;
+    padding-top: 55px;
+}
+
+.header2 .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header2 .nav_links {
+    list-style: none;
+}
+
+.header2 .nav_links li {
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+.header2 .nav_links li:hover {
+    transform: scale(1.2);
+}
+
+.header2 .nav_links a {
+    font-size: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header2 .nav_links li a:hover {
+    color: #90E0EF;
+}
+
+.btn {
+    padding-right: 40px;
+}
+
+.header2 .btn button {
+    color: #03045E;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.header2 .btn button:hover {
+    background-color: #90E0EF;
+    color: #03045E;
+    transform: scale(1.2);
+}
+
+.header3 {
+    padding-top: 20vh;
+    height: 50vh !important;
+    background: url(images/basket_court.png) no-repeat top;
+    
+    background-size: cover;
+    
+    
+}
+
+.title2 {
+    margin-top: 80px;
+    font-size: 50px;
+    text-transform: uppercase;
+   color: black
+
+}
+
+p {
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    padding: 0 100px;
+}
+
+.content {
+    height: 55vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.servicios{
+
+    padding: 1px;
+    background-color: #90E0EF;
+    height: 100vh;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box-container .box{
+    height: 23rem;
+    width: 17rem;
+    background: #023E8a; 
+    border-radius: 1rem;
+    margin: 2rem;
+    text-align: center;
+
+
+}
+.box-container .box img{
+    height: 90px;
+    padding-top: 15px;
+}
+   
+.box-container .box h3{
+    font-size: 30px;
+    color: #90E0EF;
+}
+
+.box-container .box p{
+    font-size: 20px0;
+    padding: 0 15px;
+}
+
+.about{
+    padding: 1px;
+    background: #03045E;
+
+}
+
+.price{
+    background: url(images/tennis_court.png) no-repeat bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px;
+}
+
+.contact{
+    padding: 1px;
+    background: #023E8a;
+}
