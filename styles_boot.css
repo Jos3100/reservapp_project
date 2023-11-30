@@ -73,13 +73,21 @@ h1 {
 }
 
 .hero-principal {
-    padding: 1rem;
+   /*  padding: 1rem; */
+    background: url(images/tennis_court.png) no-repeat bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px;
+    height: 500px;
+   
+    
 }
 
-.hero-imagen-perfil {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+.hero-imagen-court {
+    background-image: url(images/basket_court.png);
+
+
+  
 }
 
 .hero-inferior-imagen{
@@ -104,7 +112,7 @@ h1 {
     text-align: center;
 }
 
-/* Experiencia*/
+/* Servicios*/
 .experiencia {
     padding: 40px 40px 60px 40px;
 }

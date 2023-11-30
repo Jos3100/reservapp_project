@@ -2,120 +2,70 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" type="image/x-icon" href="images/deport.favi.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
 </head>
 
-<body class="body">
-    <header class="header2">
-        <div class="logo">
-            <img src="images/logo_white_noback.png" alt="logo de la marca">
-        </div>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="sign.html">Formulario</a></li>
-                <li><a href="ghostForDev.html">Formulario #2</a></li>
-            </ul> 
-        </nav>
-        <a href="#" class="btn"><button>Contacto</button></a>
-    </header>
-    <div class="back"></div>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="user-details">Full name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
 
-    <h1 class="title">Bienvenido a formulario</h1>
-    <br>
-    <div class="link">
 
-        <a href="index.html">Volver a Homepage</a>
+                <div class="input-box">
+                    <span class="user-details">Username</span>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="user-details">Email</span>
+                    <input type="text" placeholder="Enter your Email" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="user-details">Phone number</span>
+                    <input type="text" placeholder="Enter your number" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="user-details">Password</span>
+                    <input type="text" placeholder="Enter your Password" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="user-details">Confirm password</span>
+                    <input type="text" placeholder="Confirm your password" required>
+                </div>
+            </div>
+
+            <div class="gender-detais">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Registrer">
+            </div>
+        </form>
     </div>
-
-    <form action="recibido.html">
-
-        <div class="space">
-            <label for="fname" class="subtitle">Nombre:</label>
-            <input type="text" id="fname" name="fname" class="inputs" required>
-        </div>
-        <div class="space">
-            <label for="lname" class="subtitle">Apellido:</label>
-            <input type="text" id="lname" name="lname" class="inputs" required>
-        </div>
-        <div class="space">
-            <label for="corr" class="subtitle">E-mail:</label>
-            <input type="email" id="email" name="email" class="inputs">
-        </div>
-        <hr>
-        <h2 class="subtitle">Documento</h2>
-
-        <div class="space">
-            <label for="doc" class="subtitle">Selecciona tu tipo de documento</label>
-            <select name="doc" id="doc" class="inputs">
-
-        </div>
-
-        <option value="cedula">Cédula</option>
-        <option value="tarjeta_identidad">Tarjeta de identidad</option>
-        <option value="pasaporte">Pasaporte</option>
-        <option value="cedula_extranjeria">Cédula de extranjería</option>
-        <option value="otro">Otro</option>
-        </select>
-        <div class="space">
-            <label for="doc_number" class="subtitle">Número de documento</label>
-            <input type="text" id="doc_number" name="doc_number" class="inputs">
-        </div>
-
-        <hr>
-        <h2 class="subtitle">Sexo</h2>
-        <div class="space">
-            <input type="radio" id="man" value="Hombre" name="sex">
-            <label for="man" class="option">Hombre</label>
-        </div>
-        <div class="space">
-            <input type="radio" id="wom" value="Mujer" name="sex">
-            <label for="wom" class="option">Mujer</label>
-        </div>
-        <div class="space">
-
-            <input type="radio" id="otro" value="otro" name="sex">
-            <label for="otro" class="option">Otro:</label>
-
-            <input type="text" id="otro" name="cual" placeholder="Especificar" class="inputs">
-        </div>
-
-        <hr>
-        <h2 class="subtitle">Fecha de nacimiento</h2>
-        <div class="space">
-
-            <input type="date" name="date" class="inputs">
-        </div>
-        <hr>
-        <h2 class="subtitle">Teléfono</h2>
-        <div class="space">
-            <input type="tel" name="phone" placeholder="Número de teléfono" class="inputs">
-
-        </div>
-
-        <br><br>
-        <hr>
-        <br>
-        <input type="checkbox" name="terminos" value="Acepto">
-        <label for="checkbox" class="option">Aceptar términos y condiciones</label>
-        <div class="space">
-
-            <input type="image" src="images/check3.png" alt="Submit" width="90" height="90">
-        </div>
-
-        </div>
-
-
-
-
-
-
-
-    </form>
 
 </body>
 
