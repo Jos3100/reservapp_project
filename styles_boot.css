@@ -1,14 +1,21 @@
 /*Barra de navegación */
 
 .navbar {
-    padding: 2rem;
+    padding: 1px;
     background-color: #f5f6f7;
+    font-size: large;
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+}
 
+
+.navbar-image {
+   height: 150px;
+   padding-left: 50px;
+  
 }
 
 /* Estilos generales */
@@ -23,11 +30,12 @@ section {
 h1 {
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;
+    color: #fff;
 }
 
 .seccion-oscura {
     color: white;
-    background-color: #022b3a;
+    background-color:#626C74;
 }
 
 .seccion-clara {
@@ -90,15 +98,9 @@ h1 {
   
 }
 
-.hero-inferior-imagen{
-        width: 290px;
-        height: 290px;
-        margin: 20px;
-}
-
 .hero-principal h2 {
     font-size: 1.5rem;
-    color: #615151;
+    color: #ffffff;
 }
 
 /* Sobre mi */
@@ -129,14 +131,14 @@ h1 {
 
 .experiencia .columna:hover {
     color: white;
-    background-color: #022b3a;
+    background-color: #626C74;
 
 }
 
 .experiencia i {
     font-size: 2.5rem;
-    color: #9fcc2e;
-    background-color: #022b3a;
+    color: #F9AE17;
+    background-color: #626C74;
     padding: 8px 19px;
     border-radius: 38%;
     border: 5px solid white;
@@ -160,8 +162,8 @@ h1 {
 }
 
 .text-bg-new {
-    background-color: #1f7a8c;
-    color: blac
+    background-color: #F9AE17;
+    color: black;
 }
 
 /* Proyectos */
@@ -352,7 +354,7 @@ h1 {
 /* Pie de pagina (footer) */
 
 footer {
-    min-height: 500px;
+    min-height: 420px;
 }
 
 .footer-logo {
