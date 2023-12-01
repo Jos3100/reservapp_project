@@ -2,13 +2,14 @@
 
 .navbar {
     padding: 1px;
-    background-color: #f5f6f7;
+    background-color: #aebcc0;
     font-size: large;
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
