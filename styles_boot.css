@@ -9,14 +9,14 @@
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 
 .navbar-image {
-   height: 150px;
-   padding-left: 50px;
-  
+    height: 150px;
+    padding-left: 50px;
+
 }
 
 /* Estilos generales */
@@ -36,7 +36,7 @@ h1 {
 
 .seccion-oscura {
     color: white;
-    background-color:#626C74;
+    background-color: #626C74;
 }
 
 .seccion-clara {
@@ -82,21 +82,21 @@ h1 {
 }
 
 .hero-principal {
-   /*  padding: 1rem; */
+    /*  padding: 1rem; */
     background: url(images/tennis.jpeg) no-repeat bottom;
     background-attachment: fixed;
     background-size: cover;
     padding: 1px;
     height: 500px;
-   
-    
+
+
 }
 
 .hero-imagen-court {
     background-image: url(images/basket.jpg);
 
 
-  
+
 }
 
 .hero-principal h2 {
@@ -135,6 +135,50 @@ h1 {
     background-color: #626C74;
 
 }
+
+/* cards */
+.cards {
+ padding: 40px 40px 60px 40px;
+}
+
+
+.cards .columnaC {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+/* "card" a diferencia de "cards" afecta  cada tarjeta en sí */
+.card  {
+    border: 10px solid white;
+    transition: all 0.2s ease-in;
+}
+
+.cards .card:hover {
+    border: 10px solid #F9AE17;
+
+}
+
+.btncard {
+    padding: 8px;
+    background-color: #F9AE17;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title-cards {
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+
+
+
 
 .experiencia i {
     font-size: 2.5rem;
@@ -232,8 +276,8 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     padding: 1px;
-  min-height: 500px;  
-  padding: 30px;
+    min-height: 500px;
+    padding: 30px;
 }
 
 .articulos .card {
@@ -279,7 +323,7 @@ h1 {
     max-width: 70%;
     font-size: 20px;
     text-align: center;
-    font-family:'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .testimonio-info {
@@ -368,7 +412,7 @@ footer {
     font-size: 1.5rem;
     padding: 20px;
     margin-bottom: 30px;
-    font-family:'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -384,7 +428,7 @@ footer {
     transition: all 0.2s ease-in;
 }
 
-.iconos-redes-sociales i{
+.iconos-redes-sociales i {
     color: white;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
@@ -436,8 +480,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-  
+
+
 }
 
 form .user-details .input-box {
@@ -446,7 +490,7 @@ form .user-details .input-box {
 }
 
 .user-details .input-box .details {
-    display:block;
+    display: block;
     font-weight: 500;
     margin-bottom: 5px;
 
@@ -465,8 +509,8 @@ form .user-details .input-box {
 }
 
 .user-details .input-box input:focus,
-.user-details .input-box input:valid{
-border-color: #9b59b6;
+.user-details .input-box input:valid {
+    border-color: #9b59b6;
 }
 
 form .gender-details .gender-title {
@@ -496,14 +540,14 @@ form .gender-details .category {
     transition: all 0.3s ease;
 }
 
-#dot-1:checked ~ .category label .one,
-#dot-2:checked ~ .category label .two,
-#dot-3:checked ~ .category label .three {
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
     border-color: #d9d9d9;
     background: #9b59b6;
 }
 
-form input[type="radio"]{
+form input[type="radio"] {
     display: none;
 }
 
@@ -512,7 +556,7 @@ form .button {
     margin: 45px 0;
 }
 
-form .button input{
+form .button input {
     height: 100%;
     width: 100%;
     outline: none;
@@ -526,7 +570,7 @@ form .button input{
 
 form .button input:hover {
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
@@ -541,6 +585,7 @@ form .button input:hover {
     .overlay p {
         font-size: 18px;
     }
+
     .overlay i {
         font-size: 40px;
     }
@@ -557,6 +602,7 @@ form .button input:hover {
         height: 120px;
         width: 120px;
     }
+
     .testimonio-texto {
         font-size: 18px;
     }
