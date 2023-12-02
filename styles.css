@@ -138,7 +138,7 @@ h1 {
 
 /* cards */
 .cards {
- padding: 40px 40px 60px 40px;
+    padding: 40px 40px 60px 40px;
 }
 
 
@@ -152,7 +152,7 @@ h1 {
 }
 
 /* "card" a diferencia de "cards" afecta  cada tarjeta en sí */
-.card  {
+.card {
     border: 10px solid white;
     transition: all 0.2s ease-in;
 }
