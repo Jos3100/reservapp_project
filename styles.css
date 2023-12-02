@@ -1,262 +1,611 @@
-.inputs {
-    border-color: rgb(0, 0, 0);
-    border-width: 3px;
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+/*Barra de navegación */
+
+.navbar {
+    padding: 1px;
+    background-color: #aebcc0;
     font-size: large;
 }
 
-.title {
-    background: rgb(228, 87, 22);
-    padding: 15px;
-    color: rgb(255, 255, 255);
-    border-radius: 40px;
-    border-style: solid;
-    border-color: black;
-    margin: auto;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xxx-large;
-}
-
-.link a {
-    text-align: center;
-    background: rgb(241, 166, 131);
-    padding: 5px 25px;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border-color: black;
-    font-size: x-large;
-    margin-left: 45%;
-}
-
-.subtitle {
-    background: rgb(228, 87, 22);
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-
-}
-
-.back {
-    background-image: url(images/backtennis.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: -2;
-
-
-}
-
-.option {
-    background: rgb(228, 87, 22);
-    padding: 5px;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: auto;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-}
-
-.space {
-    padding: 20px;
-    text-align: center;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    height: 70px;
+.navbar-collapse {
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    z-index: 100;
-    position: fixed;
-    top: 0;
-}
-
-.body {
-    margin: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center;
-    font-family: sans-serif;
-
-}
-
-.words {
-    text-decoration: none;
-    color: azure;
-    margin-right: 100px;
-    font-family: monospace;
-    font-size: x-large;
-}
-
-.header2 {
-    background-color: #023E8a;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    width: 100%;
-    padding: 5px 10px;
-    z-index: 100;
-    position: fixed;
-    top: 0;
 
 }
 
-.header2 .logo img {
-    height: 220px;
-    width: auto;
-    padding-left: 40px;
-    padding-top: 55px;
-}
 
-.header2 .logo img:hover {
-    transform: scale(1.2);
-}
-
-.header2 .nav_links {
-    list-style: none;
-}
-
-.header2 .nav_links li {
-    display: inline-block;
-    padding: 0px 60px;
-}
-
-.header2 .nav_links li:hover {
-    transform: scale(1.2);
-}
-
-.header2 .nav_links a {
-    font-size: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-decoration: none;
-}
-
-.header2 .nav_links li a:hover {
-    color: #90E0EF;
-}
-
-.btn {
-    padding-right: 40px;
-}
-
-.header2 .btn button {
-    color: #03045E;
-    padding: 9px 25px;
-    background: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
+.navbar-image {
+    height: 150px;
+    padding-left: 50px;
 
 }
 
-.header2 .btn button:hover {
-    background-color: #90E0EF;
-    color: #03045E;
-    transform: scale(1.2);
-}
+/* Estilos generales */
 
-.header3 {
-    padding-top: 20vh;
-    height: 50vh !important;
-    background: url(images/basket_court.png) no-repeat top;
-    
-    background-size: cover;
-    
-    
-}
-
-.title2 {
-    margin-top: 80px;
-    font-size: 50px;
-    text-transform: uppercase;
-   color: black
-
-}
-
-p {
-    font-size: 25px;
-    color:rgb(255, 255, 255);
-    padding: 0 100px;
-}
-
-.content {
-    height: 55vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.servicios{
-
-    padding: 1px;
-    background-color: #90E0EF;
-    height: 100vh;
-}
-
-.box-container{
+section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: #fff;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #626C74;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    background-color: #bfdbf7;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+
+}
+
+/* Seccion Hero */
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
     text-align: center;
-    
 }
 
-.box-container .box{
-    height: 23rem;
-    width: 17rem;
-    background: #023E8a; 
-    border-radius: 1rem;
-    margin: 2rem;
-    text-align: center;
-
-
-}
-.box-container .box img{
-    height: 90px;
-    padding-top: 15px;
-}
-   
-.box-container .box h3{
-    font-size: 30px;
-    color: #90E0EF;
-}
-
-.box-container .box p{
-    font-size: 20px0;
-    padding: 0 15px;
-}
-
-.about{
-    padding: 1px;
-    background: #03045E;
-
-}
-
-.price{
-    background: url(images/tennis_court.png) no-repeat bottom;
+.hero-principal {
+    /*  padding: 1rem; */
+    background: url(images/tennis.jpeg) no-repeat bottom;
     background-attachment: fixed;
     background-size: cover;
     padding: 1px;
+    height: 500px;
+
+
 }
 
-.contact{
+.hero-imagen-court {
+    background-image: url(images/basket.jpg);
+
+
+
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* Sobre mi */
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Servicios*/
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #626C74;
+
+}
+
+/* cards */
+.cards {
+    padding: 40px 40px 60px 40px;
+}
+
+
+.cards .columnaC {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+/* "card" a diferencia de "cards" afecta  cada tarjeta en sí */
+.card {
+    border: 10px solid white;
+    transition: all 0.2s ease-in;
+}
+
+.cards .card:hover {
+    border: 10px solid #F9AE17;
+
+}
+
+.btncard {
+    padding: 8px;
+    background-color: #F9AE17;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title-cards {
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #F9AE17;
+    background-color: #626C74;
+    padding: 8px 19px;
+    border-radius: 38%;
+    border: 5px solid white;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.text-bg-new {
+    background-color: #F9AE17;
+    color: black;
+}
+
+/* Proyectos */
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+
+/*Articulos*/
+
+.articulos {
+    background: url(images/basket.jpg) no-repeat bottom;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 1px;
-    background: #023E8a;
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+}
+
+/* Testimonios */
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+/* contacto */
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: #1f7a8c;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px #e1e5f2;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+    min-height: 420px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 5px solid #F87F01;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+
+/* formulario */
+
+.containerForm {
+    max-width: 700px;
+    width: 100%;
+    background: #ffff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.containerForm .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.containerForm .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #F87F01;
+}
+
+.containerForm form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #F87F01;
+}
+
+form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category {
+    display: flex;
+    margin: 14px 0;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.gender-details .category label {
+    display: flex;
+    align-items: center;
+}
+
+.gender-details .category .dot {
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+    border-color: #d9d9d9;
+    background: #F87F01;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #F87F01;
+}
+
+form .button input:hover {
+    background: #F9AE17;
+    cursor: pointer;
+}
+
+
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
 }
